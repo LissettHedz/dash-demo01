@@ -1,15 +1,18 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { CardsSmallComponent } from './cards-small/cards-small.component';
+import { TitleComponent } from './title/title.component';
 
 
 
 @NgModule({
   declarations: [
-    CardsSmallComponent
+    CardsSmallComponent,
+    TitleComponent
   ],
   exports: [
-    CardsSmallComponent
+    CardsSmallComponent,
+    TitleComponent
   ],
   imports: [
     CommonModule

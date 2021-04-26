@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output } from '@angular/core';
 
 @Component({
   selector: 'app-dash-admin',
@@ -6,7 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./dash-admin.component.scss']
 })
 export class DashAdminComponent implements OnInit {
-
+  @Output() titulo = 'Dashboard';
+  @Output() subtitulo = 'Administrador';
+  
   constructor() { }
 
   ngOnInit(): void {
