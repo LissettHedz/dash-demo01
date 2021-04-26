@@ -1,0 +1,10 @@
+{
+    "labels": {
+        "title": "System Support CCN",
+        "notices": "Notices"
+    },
+    "buttons": {
+        "save": "Save",
+        "update": "Update"
+    }
+}

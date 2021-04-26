@@ -9,7 +9,10 @@ import { FooterComponent } from './footer/footer.component';
 import { TitleComponent } from './title/title.component';
 import { MenuAdminComponent } from './menu-admin/menu-admin.component';
 import { AppRoutingModule } from '../app-routing.module';
-import { RouterLinkActive } from '@angular/router';
+import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
+import { HttpClientModule } from '@angular/common/http';
+import { HttpClient } from '@angular/common/http';
+import { HttpLoaderFactory } from 'src/app/app.module';
 
 
 
@@ -35,7 +38,15 @@ import { RouterLinkActive } from '@angular/router';
   ],
   imports: [
     CommonModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    TranslateModule.forRoot({
+      loader: {
+        provide: TranslateLoader,
+        useFactory: HttpLoaderFactory,
+        deps: [HttpClient]
+      }
+    })
   ]
 })
 export class CoreModule { }

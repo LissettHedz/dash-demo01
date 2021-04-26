@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
 
 
 @Component({
@@ -8,7 +9,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MenuAdminComponent implements OnInit {
 
-  constructor() { }
+  constructor(private translate: TranslateService) { 
+    this.translate.addLangs(['es', 'en']);
+    this.translate.setDefaultLang('es');
+  }
 
   ngOnInit(): void {
   }

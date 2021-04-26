@@ -2,14 +2,14 @@
     <ul class="nav flex-column">
       <li class="nav-item" >
         <a class="nav-link" routerLink="/dashboard/admin" [routerLinkActive]="'active'">
-          <i class="material-icons">edit</i>
-          <span>Dashboard</span>
+          <i class="material-icons">{{ "icon.edit" | translate }}</i>
+          <span>{{ "menu.dashboard" | translate }}</span>
         </a>
       </li>
       <li class="nav-item">
         <a class="nav-link " routerLink="/cursos/cursos" [routerLinkActive]="'active'">
-          <i class="material-icons">vertical_split</i>
-          <span>Cursos</span>
+          <i class="material-icons">{{ "icon.curso" | translate }}</i>
+          <span>{{ "menu.cursos" | translate }}</span>
         </a>
       </li>
       <!-- <li class="nav-item">

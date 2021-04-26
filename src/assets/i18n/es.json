@@ -1,0 +1,36 @@
+{    
+    "menu": {
+        "dashboard": "Dashboard",
+        "cursos": "Cursos",
+        "support": "Soporte",
+        "notices": "Avisos"
+    },
+    "icon": {
+        "edit": "edit",
+        "curso": "vertical_split"
+    },
+    "labels": {
+        "title": "Demo",
+        "title2": "Soporte Call Center Nacional",
+        "support": "Soporte",
+        "notices": "Avisos"
+    },
+
+    "buttons": {
+        "save": "Guardar",
+        "update": "Actualizar",
+        "oneservices": "Un Servicio",
+        "twoservices": "Dos Servicios",
+        "threeservices":"Tres Servicios",
+        "others":"Otros motivos"
+    },
+    "messages":{
+        "option1":"Selecciona en cuántos servicios esta presentando problemas el cliente",
+        "option2":"Cliente presenta falla en un servicio? en dos? en todos los servicios? ó llama por otro motivo?"
+    },
+    "speech":{
+        "option1":"Speech: 'Gracias por comunicarse a Megacable, podría indicarme cual es el motivo de su llamada?' ",
+        "option2":"'Gracias por comunicarse a Megacable, podría indicarme cual es el motivo de su llamada?'. "
+    }
+    
+}
